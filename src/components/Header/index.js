@@ -1,6 +1,5 @@
 import React from 'react'
 import "./style.css"
-import PropTypes from 'prop-types'
 
 const Header = (props) =>{
   return (
@@ -8,6 +7,5 @@ const Header = (props) =>{
   )
 }
 
-Header.propTypes = {}
 
 export default Header
