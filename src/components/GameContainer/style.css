@@ -1,0 +1,28 @@
+.Game-container {
+    position: sticky;
+    top: 0;
+    width: 50vw;
+    height: 50vw;
+    min-width: 300px;
+    min-height: 300px;
+    max-width: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+    background-color: #FE5D9F;
+    border-bottom-left-radius: 10px;
+}
+
+.pulse {
+    width: 150px;
+    height: 150px;
+    animation-name: bunny-pulse;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes bunny-pulse {
+    0%   {
+      transform: scale3d(1,1,1);}
+    50%  { transform: scale3d(1.05,1.05,1.05);}
+    100% { transform: scale3d(1,1,1);
+  }}

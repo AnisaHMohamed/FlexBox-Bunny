@@ -1,24 +1,12 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  display: flex;
+  /* flex-direction: row-reverse; */
 }
 
-.pulse {
-  width: 150px;
-  height: 150px;
-  animation-name: bunny-pulse;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes bunny-pulse {
-  0%   {
-    transform: scale3d(1,1,1);}
-  50%  { transform: scale3d(1.05,1.05,1.05);}
-  100% { transform: scale3d(1,1,1);
-}}
 
 .App-header {
-  background-color: #282c34;
+  background-color: #D6D2D2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

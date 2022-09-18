@@ -1,15 +1,13 @@
-import logo from './bunny.png';
-import tree from './lemon_tree.png';
+import GameContainer from './components/GameContainer';
 import './App.css';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="pulse" alt="bunny" />
-        <img  src={tree} className="pulse" alt="lemon tree"></img>
-      
-      </header>
+    <Header/>
+
+    <GameContainer/>
     </div>
   );
 }
