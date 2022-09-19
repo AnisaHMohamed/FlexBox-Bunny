@@ -1,10 +1,11 @@
 import "./style.css";
+import Header from '../Header';
 
 const Level = ({level}) => {
    console.log(level)
   return (
-    <div>
-   
+    <div className="level">
+   <Header/>
   <p>level: {1}</p>
  <h1>Welcome to Flexbox Bunny, a game where you help Bunny and friends by writing CSS code! Guide this bunny to the tree on the right by using the justify-content property, which aligns items horizontally and accepts the following values:
  </h1> 
