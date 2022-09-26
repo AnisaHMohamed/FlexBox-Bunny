@@ -1,7 +1,7 @@
 import React from 'react'
 import "./style.css"
 
-const Header = (props) =>{
+const Header = () =>{
   return (
     <h1 className='title'>FlexBox Bunny</h1>
   )

@@ -25,10 +25,44 @@
     overflow: hidden;
 
 }
+.game-area {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    z-index: 20;
 
+}
+.bunny-div {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    z-index: 20;
+
+}
+.background{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.tree {
+    width: 100px;
+    height: 100px;
+    /* display: flex;
+    justify-content: flex-end; */
+    z-index: 10;
+
+}
 .pulse {
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px; 
     animation-name: bunny-pulse;
     animation-duration: 1s;
     animation-iteration-count: infinite;
